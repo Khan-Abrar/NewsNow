@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "NewsNow",
+  "name": "NewsNow - daily dose of news for free!",
   "icons": [
     {
       "src": "favicon.ico",

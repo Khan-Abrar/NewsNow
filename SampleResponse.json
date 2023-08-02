@@ -1,0 +1,228 @@
+{
+    "status": "ok",
+    "totalResults": 17,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Matias Grez",
+            "title": "USWNT survives late scare to reach Women’s World Cup round of 16 - CNN",
+            "description": "The US Women’s National Team was a post width away from exiting the Women’s World Cup at the group stage, but survived a late scare to earn a goalless draw against Portugal and reach the last 16.",
+            "url": "https://www.cnn.com/2023/08/01/football/uswnt-portugal-womens-world-cup-spt-intl/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230801093026-04-world-cup-080123-usa-portugal.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-08-01T10:29:00Z",
+            "content": "The US Womens National Team was a post width away from exiting the Womens World Cup at the group stage, but survived a late scare to earn a goalless draw against Portugal and reach the last 16.\r\nWith… [+4140 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Ron Bousso, Shadia Nasralla",
+            "title": "BP boosts dividend even as profit slumps 70% to $2.6 bln - Reuters",
+            "description": "BP's <a href=\"https://www.reuters.com/markets/companies/BP.L\" target=\"_blank\">(BP.L)</a> second-quarter profit slumped 70% from a year earlier to $2.6 billion, missing forecasts, as refining margins and oil trading income fell, but still allowing the energy g…",
+            "url": "https://www.reuters.com/business/energy/bp-boosts-dividend-even-profit-slumps-70-26-bln-2023-08-01/",
+            "urlToImage": "https://www.reuters.com/resizer/r_EMQG9DAXvaz1FD8P2zQBcyM3k=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/5DYCZ7SP2VJ27HUAKKAYOZVOGU.jpg",
+            "publishedAt": "2023-08-01T09:46:00Z",
+            "content": "LONDON, Aug 1 (Reuters) - BP's (BP.L) second-quarter profit slumped 70% from a year earlier to $2.6 billion, missing forecasts, as refining margins and oil trading income fell, but still allowing the… [+4391 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Fox Business"
+            },
+            "author": "Breck Dumas",
+            "title": "What pushed Yellow trucking company to point of bankruptcy? - Fox Business",
+            "description": "Yellow Corp, one of the largest trucking companies in the U.S., is on the brink of collapse with bankruptcy expected any day. Here's what to know about what led to its downfall.",
+            "url": "https://www.foxbusiness.com/markets/what-pushed-yellow-trucking-company-point-bankruptcy",
+            "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/07/0/0/yellow-corp.jpg?ve=1&tl=1",
+            "publishedAt": "2023-08-01T06:03:06Z",
+            "content": "U.S. trucking giant Yellow Corp. is widely expected to file for bankruptcy any day now, following reports that the nearly century-old company ceased operations nationwide and began laying off employe… [+5251 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Axios",
+            "title": "Around 450k Americans may have a tick-borne meat allergy and have no idea, study says - Axios",
+            "description": null,
+            "url": "https://www.axios.com/2023/07/31/alpha-gal-ags-tick-meat-allergy-cases",
+            "urlToImage": null,
+            "publishedAt": "2023-08-01T05:31:08Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "R.J. Anderson",
+            "title": "MLB trade rumors: Live deadline news, trades, latest on Justin Verlander, Yankees, Padres, more - CBS Sports",
+            "description": "The 2023 MLB trade deadline is set for Tuesday evening; find all the latest buzz here",
+            "url": "https://www.cbssports.com/mlb/news/mlb-trade-rumors-live-deadline-news-trades-latest-on-justin-verlander-yankees-padres-more/live/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/07/31/c789f922-349c-494a-87cd-b55e8b2a7d03/thumbnail/1200x675/d6f550623ed313a81d7302fc8fce0410/verlander-usatsi-4.png",
+            "publishedAt": "2023-08-01T03:52:00Z",
+            "content": "Major League Baseball's trade deadline is set for Tuesday (Aug. 1) at 6 p.m. ET. MLB teams have less than 24 hours remaining to plot out their deadline strategies, and to attempt to buy or sell ahead… [+916 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Charlotte Observer"
+            },
+            "author": "Mark Price, Julia Coin",
+            "title": "Person of interest in custody after SUV drives into 6 migrant workers at NC Walmart - Charlotte Observer",
+            "description": "Man charged with hit-and-run after six migrant workers struck by SUV outside Lincolnton NC Walmart. Suspect said he accidentally hit the gas",
+            "url": "https://www.charlotteobserver.com/news/local/crime/article277806268.html",
+            "urlToImage": "https://www.charlotteobserver.com/latest-news/9ebrrz/picture277824918/alternates/LANDSCAPE_1140/Screenshot%202023-07-31%20at%202.56.23%20PM.png",
+            "publishedAt": "2023-08-01T03:15:00Z",
+            "content": "Six North Carolina migrant farm workers left a Walmart in Lincoln County with broken legs, broken ankles and concussions after a driver plowed his SUV through them in the parking lot around lunchtime… [+6088 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Nikole Killion",
+            "title": "Fulton County D.A. receives racist threats as charging decision against Trump looms - CBS News",
+            "description": "Monday marks the opening of the three-week window Fani Willis set for a potential decision on whether former President Donald Trump should face charges over his alleged conduct after the 2020 election.",
+            "url": "https://www.cbsnews.com/news/fulton-county-d-a-racist-threats-charging-decision-against-trump/",
+            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2023/01/30/5d10abab-2b98-46c4-8a6c-cf93efcc3b5a/thumbnail/1200x630g2/2b4b65c9444ee46c239e821626d55d0a/ap23029794890333.jpg?v=7a59b1f350438a037e8fc5a4d24a0766",
+            "publishedAt": "2023-08-01T02:43:00Z",
+            "content": "District Attorney Fani Willis warned Fulton County commissioners this weekend they should \"stay alert\" over the next month, according to emails obtained by CBS News. \r\nShe pointed to a threatening em… [+2380 chars]"
+        },
+        {
+            "source": {
+                "id": "bloomberg",
+                "name": "Bloomberg"
+            },
+            "author": null,
+            "title": "China Pledges More Loan Support to Business to Spur Economy - Bloomberg",
+            "description": "China has pledged to boost credit to private companies and extend other funding measures to small firms as policymakers seek ways to shore up confidence and support the recovery.",
+            "url": "https://www.bloomberg.com/news/articles/2023-08-01/china-pledges-more-loan-support-to-business-to-spur-economy",
+            "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iKCqonMoeqfI/v0/1200x823.jpg",
+            "publishedAt": "2023-08-01T02:32:52Z",
+            "content": "China has pledged to boost credit to private companies and extend other funding measures to small firms as policymakers seek ways to shore up confidence and support the recovery. \r\nThe nation will ex… [+344 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Eonline.com"
+            },
+            "author": "Jess Cohen, Angie Orellana Hernandez",
+            "title": "Lori Vallow Sentenced to Life in Prison Without Parole in Murders of Her Kids, Chad Daybell’s First Wife - E! NEWS",
+            "description": "Two months after Lori Vallow was found guilty in her triple murder trial, she was officially sentenced to life in prison without parole in the killings of JJ Vallow, Tylee Ryan and Tammy Daybell.",
+            "url": "https://www.eonline.com/news/1381786/lori-vallow-sentenced-to-life-in-prison-without-parole-in-murders-of-her-kids-chad-daybells-first-wife",
+            "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2023412/rs_1200x1200-230512162646-1200-lori-vallow-AP23132709066020.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+            "publishedAt": "2023-07-31T23:09:00Z",
+            "content": "Meanwhile, JJ was last seen two weeks later at school in Rexburg, Idaho. At the time, Lori had taken him out of elementary school with plans to teach him at home. However, by November, his paternal g… [+644 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Notebookcheck.net"
+            },
+            "author": "Deirdre O'Donnell",
+            "title": "Vivo X100 series officially slated to launch with new Sony LYTIA camera sensor and Zeiss telephoto lens - Notebookcheck.net",
+            "description": "Vivo has announced that its next line of premium Android smartphones will debut with an all-new image sensor from Sony. Furthermore, it will be joined on the back of X100-series devices by a new telephoto lens from Zeiss. The former is touted to achieve incre…",
+            "url": "https://www.notebookcheck.net/Vivo-X100-series-officially-slated-to-launch-with-new-Sony-LYTIA-camera-sensor-and-Zeiss-telephoto-lens.737758.0.html",
+            "urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/lytiateaser.jpg",
+            "publishedAt": "2023-07-31T20:48:07Z",
+            "content": "Vivo has leveraged its relationship with Sony by, for example, releasing an X90 Pro with a custom version of the IMX866 - now, it has announced that the Android smartphones' successors have also bene… [+1102 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Denver Post"
+            },
+            "author": "Ryan McFadden",
+            "title": "Broncos waive K.J. Hamler with non-football illness designation - The Denver Post",
+            "description": "The Broncos will waive wide receiver K.J. Hamler with a non-football illness designation, a source confirmed with the Post on Monday.",
+            "url": "https://www.denverpost.com/2023/07/31/broncos-waive-k-j-hamler-with-non-football-illness-designation/",
+            "urlToImage": "https://www.denverpost.com/wp-content/uploads/2021/07/TDP-L-BRONCOS-TRAINING-CAMP_AC39122x.jpg?w=1024&h=844",
+            "publishedAt": "2023-07-31T20:08:32Z",
+            "content": "The Broncos waived wide receiver K.J. Hamler with a non-football illness designation on Monday.\r\nThe procedural move comes after Hamler announced on Instagram that he was diagnosed with a mild heart … [+3063 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "LAURAN NEERGAARD",
+            "title": "Brain fog and other long COVID symptoms are the focus of new small treatment studies - The Associated Press",
+            "description": "The National Institutes of Health is starting some studies to test possible treatments for long COVID. Millions of people are estimated to have the mysterious condition. The studies are small but each will tackle multiple possible therapies for things like br…",
+            "url": "https://apnews.com/article/long-covid-brain-fog-virus-treatments-d5ac01c9f4209691ddcd7a1b5c78353e",
+            "urlToImage": "https://dims.apnews.com/dims4/default/8d80ae5/2147483647/strip/true/crop/1592x896+0+83/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F58%2F34%2Fa6e0a3f187ad04663843f6454ed3%2F9d256e5d5d9b4d91a894d277250e03e0",
+            "publishedAt": "2023-07-31T16:01:00Z",
+            "content": "WASHINGTON (AP) The National Institutes of Health is beginning a handful of studies to test possible treatments for long COVID, an anxiously awaited step in U.S. efforts against the mysterious condit… [+3751 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": ", USA TODAY",
+            "title": "NASA Antares rocket launch schedule, how to watch live on East Coast - USA TODAY",
+            "description": "Weather permitting, NASA will launch the Antares rocket from the Wallops Flight Facility Aug. 1 at 8:31 p.m. ET and it could be visible to millions.",
+            "url": "https://www.usatoday.com/story/news/nation/2023/07/31/nasa-antares-rocket-launch-how-to-watch-wallops/70496541007/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2022/11/07/USAT/3187187f-653c-41a1-80cc-8e92f772c7f3-AP_APTOPIX_Space_Station.jpg?auto=webp&crop=5999,3375,x0,y165&format=pjpg&width=1200",
+            "publishedAt": "2023-07-31T15:04:52Z",
+            "content": "An upcoming NASA launch to the International Space Station may be visible to people in multiple states in the eastern U.S.\r\nWeather permitting, NASA will launch the Northrop Grummans Antares rocket A… [+2163 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Matias Grez",
+            "title": "USWNT survives late scare to reach Women’s World Cup round of 16 - CNN",
+            "description": "The US Women’s National Team was a post width away from exiting the Women’s World Cup at the group stage, but survived a late scare to earn a goalless draw against Portugal and reach the last 16.",
+            "url": "https://www.cnn.com/2023/08/01/football/uswnt-portugal-womens-world-cup-spt-intl/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230801093026-04-world-cup-080123-usa-portugal.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-08-01T10:29:00Z",
+            "content": "The US Womens National Team was a post width away from exiting the Womens World Cup at the group stage, but survived a late scare to earn a goalless draw against Portugal and reach the last 16.\r\nWith… [+4140 chars]"
+        },
+        ,
+        {
+            "source": {
+                "id": null,
+                "name": "Notebookcheck.net"
+            },
+            "author": "Deirdre O'Donnell",
+            "title": "Vivo X100 series officially slated to launch with new Sony LYTIA camera sensor and Zeiss telephoto lens - Notebookcheck.net",
+            "description": "Vivo has announced that its next line of premium Android smartphones will debut with an all-new image sensor from Sony. Furthermore, it will be joined on the back of X100-series devices by a new telephoto lens from Zeiss. The former is touted to achieve incre…",
+            "url": "https://www.notebookcheck.net/Vivo-X100-series-officially-slated-to-launch-with-new-Sony-LYTIA-camera-sensor-and-Zeiss-telephoto-lens.737758.0.html",
+            "urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/lytiateaser.jpg",
+            "publishedAt": "2023-07-31T20:48:07Z",
+            "content": "Vivo has leveraged its relationship with Sony by, for example, releasing an X90 Pro with a custom version of the IMX866 - now, it has announced that the Android smartphones' successors have also bene… [+1102 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Denver Post"
+            },
+            "author": "Ryan McFadden",
+            "title": "Broncos waive K.J. Hamler with non-football illness designation - The Denver Post",
+            "description": "The Broncos will waive wide receiver K.J. Hamler with a non-football illness designation, a source confirmed with the Post on Monday.",
+            "url": "https://www.denverpost.com/2023/07/31/broncos-waive-k-j-hamler-with-non-football-illness-designation/",
+            "urlToImage": "https://www.denverpost.com/wp-content/uploads/2021/07/TDP-L-BRONCOS-TRAINING-CAMP_AC39122x.jpg?w=1024&h=844",
+            "publishedAt": "2023-07-31T20:08:32Z",
+            "content": "The Broncos waived wide receiver K.J. Hamler with a non-football illness designation on Monday.\r\nThe procedural move comes after Hamler announced on Instagram that he was diagnosed with a mild heart … [+3063 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "LAURAN NEERGAARD",
+            "title": "Brain fog and other long COVID symptoms are the focus of new small treatment studies - The Associated Press",
+            "description": "The National Institutes of Health is starting some studies to test possible treatments for long COVID. Millions of people are estimated to have the mysterious condition. The studies are small but each will tackle multiple possible therapies for things like br…",
+            "url": "https://apnews.com/article/long-covid-brain-fog-virus-treatments-d5ac01c9f4209691ddcd7a1b5c78353e",
+            "urlToImage": "https://dims.apnews.com/dims4/default/8d80ae5/2147483647/strip/true/crop/1592x896+0+83/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F58%2F34%2Fa6e0a3f187ad04663843f6454ed3%2F9d256e5d5d9b4d91a894d277250e03e0",
+            "publishedAt": "2023-07-31T16:01:00Z",
+            "content": "WASHINGTON (AP) The National Institutes of Health is beginning a handful of studies to test possible treatments for long COVID, an anxiously awaited step in U.S. efforts against the mysterious condit… [+3751 chars]"
+        }
+    ]
+}
