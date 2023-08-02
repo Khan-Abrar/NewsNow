@@ -8,7 +8,7 @@ import PageNotFound from "./Components/PageNotFound";
 
 export default class App extends Component {
   pageSize = 15;
-  country = "us"
+  country = "us";
   render() {
     return (
       <>
