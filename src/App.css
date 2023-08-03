@@ -6,6 +6,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.infinite-scroll-component.infinite-scroll-container{
+  overflow: hidden !important;
+}
 .card-text {
   -webkit-line-clamp: 4;
 }

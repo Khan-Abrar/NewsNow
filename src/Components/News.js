@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import PropTypes from "prop-types";
 import Spinner from "./Spinner";
+import InfiniteScroll from "react-infinite-scroll-component";
 
 export class News extends Component {
   static defaultProps = {
@@ -17,12 +18,14 @@ export class News extends Component {
   Capitalize = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
+
   constructor(props) {
     super(props);
     this.state = {
       article: [],
-      loading: false,
       page: 1,
+      totalResults: 0,
+      loading: true,
     };
     document.title = `NewsNow - ${this.Capitalize(this.props.category)}`;
   }
@@ -41,42 +44,36 @@ export class News extends Component {
     this.updateNews();
   }
 
-  handlePrevClick = async () => {
-    this.setState({ page: this.state.page - 1 });
-    this.updateNews();
-  };
-
-  handleNextClick = async () => {
+  fetchMoreArticles = async () => {
     this.setState({ page: this.state.page + 1 });
-    this.updateNews();
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f6f5086f76da406a9bf104638b080380&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+    let data = await fetch(url);
+    let parsedData = await data.json();
+    this.setState({
+      article: this.state.article.concat(parsedData.articles),
+      totalResults: parsedData.totalResults,
+    });
   };
 
   render() {
     return (
       <>
-        <div className="container my-2">
+        <div className="main-container container my-2">
           <h1 className="text-center" style={{ margin: "35px 0px" }}>
             NewsNow - Top {this.Capitalize(this.props.category)} Headlines
           </h1>
-          <div className="container mt-4 d-flex justify-content-between">
-            <button onClick={this.handlePrevClick} disabled={this.state.page <= 1} type="button" className="paginationBtn btn btn-dark mx-1">
-              &larr; Previous
-            </button>
-            <button onClick={this.handleNextClick} disabled={this.state.page + 1 >= Math.ceil(this.state.totalResults / this.props.pageSize)} type="button" className="paginationBtn btn btn-dark mx-1">
-              Next &rarr;
-            </button>
-          </div>
           {this.state.loading && <Spinner />}
-          <div className="row">
-            {!this.state.loading &&
-              this.state.article.map((card) => {
+          <InfiniteScroll className="infinite-scroll-container" dataLength={this.state.article.length} next={this.fetchMoreArticles} hasMore={this.state.article.length !== this.state.totalResults} loader={<Spinner />}>
+            <div className="row">
+              {this.state.article.map((card, index) => {
                 return (
-                  <div className="col-md-4" key={card.url}>
+                  <div className="col-md-4" key={index}>
                     <NewsItem title={card.title} description={card.description} imgUrl={card.urlToImage} newsUrl={card.url ? card.url : ""} author={card.author} date={card.publishedAt} source={card.source.name} />
                   </div>
                 );
               })}
-          </div>
+            </div>
+          </InfiniteScroll>
         </div>
       </>
     );
