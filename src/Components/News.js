@@ -63,7 +63,7 @@ export class News extends Component {
           </h1>
           <Pagination handlePagination={this.handlePagination} page={this.state.page} pageSize={this.props.pageSize} totalResults={this.state.totalResults} />
           {this.state.loading && <Spinner />}
-          <div className="container min-h-100vh">
+          <div className="container main-container-news">
             <div className="row">
               {!this.state.loading &&
                 this.state.article.map((card) => {

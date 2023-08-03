@@ -6,6 +6,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.main-container-news {
+  min-height: 100vh;
+}
 .card-text {
   -webkit-line-clamp: 4;
 }
