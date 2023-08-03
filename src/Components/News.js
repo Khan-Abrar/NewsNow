@@ -40,7 +40,6 @@ export class News extends Component {
       totalResults: parsedData.totalResults,
       loading: false,
     });
-    window.scrollTo(0, 0);
     this.props.setProgress(100);
     
   }
@@ -50,7 +49,7 @@ export class News extends Component {
 
   fetchMoreArticles = async () => {
     this.setState({ page: this.state.page + 1 });
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f6f5086f76da406a9bf104638b080380&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({

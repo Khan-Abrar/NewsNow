@@ -26,7 +26,7 @@ export default class App extends Component {
         <Routes>
           <Route exact path="/" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="default" pageSize={this.pageSize} country={this.country} category={"general"} />} />
           {this.category.map((category, index) => {
-            return <Route key={index} exact path={`/${category}`} element={<News setProgress={this.setProgress} apiKey={this.apiKey} pageSize={this.pageSize} country={this.country} category={category} />} />;
+            return (<Route key={index} exact path={`/${category}`} element={<News setProgress={this.setProgress} apiKey={this.apiKey} pageSize={this.pageSize} country={this.country} category={category} />} />);
           })}
           <Route exact path="*" element={<PageNotFound key="PageNotFound" />} />
         </Routes>
