@@ -9,15 +9,22 @@
 .card-text {
   -webkit-line-clamp: 4;
 }
+.card-text.card-body-desc.mb-3 {
+  min-height: 100px;
+}
+.card-text.card-date {
+  -webkit-line-clamp: 3;
+}
 .card-title {
   -webkit-line-clamp: 2;
 }
-
-.readMorBtn {
+.paginationBtn {
+  min-width: 100px;
+}
+.source-badge {
+  transform: translate(0%, -40%);
+}
+.readMoreBtn {
   position: absolute;
   bottom: 0;
-}
-
-.paginationBtn{
-  min-width: 100px;
 }

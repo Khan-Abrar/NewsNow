@@ -27,7 +27,7 @@ export class News extends Component {
     document.title = `NewsNow - ${this.Capitalize(this.props.category)}`;
   }
   async updateNews() {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=a29ef83ff3654a16872e7e6169c0593f&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f6f5086f76da406a9bf104638b080380&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -67,7 +67,7 @@ export class News extends Component {
             </button>
           </div>
           {this.state.loading && <Spinner />}
-          {/* <div className="row">
+          <div className="row">
             {!this.state.loading &&
               this.state.article.map((card) => {
                 return (
@@ -76,7 +76,7 @@ export class News extends Component {
                   </div>
                 );
               })}
-          </div> */}
+          </div>
         </div>
       </>
     );
