@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import PropTypes from "prop-types";
 import Spinner from "./Spinner";
+import Pagination from "./Pagination";
 
 export class News extends Component {
   static defaultProps = {
@@ -27,7 +28,8 @@ export class News extends Component {
     document.title = `NewsNow - ${this.Capitalize(this.props.category)}`;
   }
   async updateNews() {
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=f6f5086f76da406a9bf104638b080380&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    this.props.setProgress(30);
+    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({ loading: true });
     let data = await fetch(url);
     let parsedData = await data.json();
@@ -36,19 +38,20 @@ export class News extends Component {
       totalResults: parsedData.totalResults,
       loading: false,
     });
+    window.scrollTo(0, 0);
+    this.props.setProgress(100);
+    
   }
   async componentDidMount() {
     this.updateNews();
   }
 
-  handlePrevClick = async () => {
-    this.setState({ page: this.state.page - 1 });
-    this.updateNews();
-  };
-
-  handleNextClick = async () => {
-    this.setState({ page: this.state.page + 1 });
-    this.updateNews();
+  handlePagination = async (e) => {
+    if (e.target.classList.contains("previousBtn")) {
+      this.setState({ page: this.state.page - 1 }, () => this.updateNews());
+    } else if (e.target.classList.contains("nextBtn")) {
+      this.setState({ page: this.state.page + 1 }, () => this.updateNews());
+    }
   };
 
   render() {
@@ -58,25 +61,21 @@ export class News extends Component {
           <h1 className="text-center" style={{ margin: "35px 0px" }}>
             NewsNow - Top {this.Capitalize(this.props.category)} Headlines
           </h1>
-          <div className="container mt-4 d-flex justify-content-between">
-            <button onClick={this.handlePrevClick} disabled={this.state.page <= 1} type="button" className="paginationBtn btn btn-dark mx-1">
-              &larr; Previous
-            </button>
-            <button onClick={this.handleNextClick} disabled={this.state.page + 1 >= Math.ceil(this.state.totalResults / this.props.pageSize)} type="button" className="paginationBtn btn btn-dark mx-1">
-              Next &rarr;
-            </button>
-          </div>
+          <Pagination handlePagination={this.handlePagination} page={this.state.page} pageSize={this.props.pageSize} totalResults={this.state.totalResults} />
           {this.state.loading && <Spinner />}
-          <div className="row">
-            {!this.state.loading &&
-              this.state.article.map((card) => {
-                return (
-                  <div className="col-md-4" key={card.url}>
-                    <NewsItem title={card.title} description={card.description} imgUrl={card.urlToImage} newsUrl={card.url ? card.url : ""} author={card.author} date={card.publishedAt} source={card.source.name} />
-                  </div>
-                );
-              })}
+          <div className="container min-h-100vh">
+            <div className="row">
+              {!this.state.loading &&
+                this.state.article.map((card) => {
+                  return (
+                    <div className="col-md-4" key={card.url}>
+                      <NewsItem title={card.title} description={card.description} imgUrl={card.urlToImage} newsUrl={card.url ? card.url : ""} author={card.author} date={card.publishedAt} source={card.source.name} />
+                    </div>
+                  );
+                })}
+            </div>
           </div>
+          <Pagination handlePagination={this.handlePagination} page={this.state.page} pageSize={this.props.pageSize} totalResults={this.state.totalResults} />
         </div>
       </>
     );
