@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = (props) => {
-  console.log(props.category);
   const Capitalize = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
@@ -22,9 +21,9 @@ const Navbar = (props) => {
                 Home
               </Link>
             </li>
-            {props.category.map((category) => {
+            {props.category.map((category, index) => {
               return (
-                <li className="nav-item">
+                <li className="nav-item" key={index}>
                   <Link className="nav-link" to={`/${category}`}>
                     {Capitalize(category)}
                   </Link>

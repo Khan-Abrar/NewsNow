@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class NewsItem extends Component {
-  render() {
-    const { title, description, imgUrl, newsUrl, author, date, source } = this.props;
+const NewsItem = (props) => {
+    const { title, description, imgUrl, newsUrl, author, date, source } = props;
     return (
-      <div className="card my-3 mx-3">
+      <div className="card-container card my-3 mx-3">
         <img
           src={imgUrl ? imgUrl : "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff8107759-e0fa-405e-98db-c76c5fa4f0be.jpg?source=next-opengraph&fit=scale-down&width=900"}
           className="card-img-top"
@@ -31,7 +30,6 @@ export class NewsItem extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default NewsItem;
