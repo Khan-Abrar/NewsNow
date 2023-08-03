@@ -9,6 +9,9 @@
 .card-text {
   -webkit-line-clamp: 4;
 }
+.main-container-news {
+  min-height: 100vh;
+}
 .card-text.card-body-desc.mb-3 {
   min-height: 100px;
 }
