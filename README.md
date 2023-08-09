@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# NewsNow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NoteList website made with React.js
+
+# About
+
+NoteList was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Get a daily dose of news anytime & anywhere. If you're interested in what's happening around the world, this app is for you!
+
+## Integration
+
+Please generate & use your own API key from [News API](https://newsapi.org/) and place it in the {apiKey} variable inside APP.js or any .env file.
+After getting the API key this APP will be ready to be deployed.
 
 ## Available Scripts
 
