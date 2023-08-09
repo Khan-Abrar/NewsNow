@@ -1,10 +1,10 @@
 # NewsNow
 
-NoteList website made with React.js
+NewsNow website made with React.js
 
 # About
 
-NoteList was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsNow was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Get a daily dose of news anytime & anywhere. If you're interested in what's happening around the world, this app is for you!
 
 ## Integration
